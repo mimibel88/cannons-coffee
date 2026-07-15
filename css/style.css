@@ -1,4 +1,7 @@
 /* BASIC FORMATTING */
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Black+Ops+One&family=Cantarell:ital,wght@0,400;0,700;1,400;1,700&family=Fontdiner+Swanky&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
 html {
     box-sizing: border-box;
 }
@@ -8,10 +11,49 @@ html {
 *:after {
     box-sizing: inherit;
 }
+:root {
+    --Black :#000000; 
+    --Catalina: #06327d;
+    --Bluetiful: #2b70e4;
+    --Vegan: #209d5c;
+    --Sunglow: #ffd034; 
+    --White: #ffffff;
+    --LightBlue: #cadbf8;
+}
 
 body {
+    font-family: "Montserrat" "Nunito Sans", "Sans-serif";
     color: black;
     background-color: #063270;
     margin: 0;
     padding: 0;
+}
+
+.h1 {
+font-weight: 300;
+text-transform: uppercase;
+margin: 0;
+}
+
+.h2 {
+font-weight: 300;
+text-transform: uppercase;
+}
+
+.h3 {
+font-weight: 300;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 1rem;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+nav a {
+    text-decoration: none;
 }

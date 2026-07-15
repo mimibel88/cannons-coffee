@@ -21,11 +21,14 @@ html {
     --LightBlue: #cadbf8;
     --montserrat: Montserrat;
 }
-
+header {
+    background-color: var(--Catalina);
+    color: Var(var(--White));
+}
 body {
     font-family: var(--montserrat);
     color: var(--Black);
-    background-color: var(--Catalina);
+    background-color: var(--White);
     font-size: 1.125rem;
     line-height: 1.5;
     margin: 0;
@@ -35,7 +38,7 @@ body {
 .container {
 max-width: 1200px;
 margin: 0 auto; 
-padding: 0 auto;   
+padding: 0 auto;  
 }
 
 h1 {
@@ -85,4 +88,9 @@ nav a {
  border-radius: 5px;
  padding: .5rem;
  color: var(--White);   
+}
+
+footer {
+    background-color: #06327d;
+    color: #cadbf8;
 }

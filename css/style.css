@@ -19,13 +19,13 @@ html {
     --Sunglow: #ffd034; 
     --White: #ffffff;
     --LightBlue: #cadbf8;
-    --montserrat: font;
+    --montserrat: Montserrat;
 }
 
 body {
-    font-family: var(--font);
-    color: var(--black);
-    background-color: var(--catalina);
+    font-family: var(--montserrat);
+    color: var(--Black);
+    background-color: var(--Catalina);
     font-size: 1.125rem;
     line-height: 1.5;
     margin: 0;
@@ -38,18 +38,23 @@ margin: 0 auto;
 padding: 0 auto;   
 }
 
-.h1 {
+h1 {
 font-weight: 300;
 text-transform: uppercase;
 margin: 0;
+font-size: 3rem;
+line-height: 1.1667;
+
 }
 
-.h2 {
+h2 {
+    font-size: 2.5rem;
+line-height: 1.1667;
 font-weight: 300;
 text-transform: uppercase;
 }
 
-.h3 {
+h3 {
     font-size: 1.75rem;
 font-weight: 300;
 line-height: 1.1667;
@@ -69,14 +74,15 @@ nav ul {
 nav a {
     text-decoration: none;
     padding: 2rem;
-    text-transformation: uppercase;
-    color: var(--white);
+    text-transform: uppercase;
+    color: var(--White);
 }
 
 .button {
  text-decoration: none;
- background-color: var(--catalina);
+ background-color: var(--Catalina);
  display: inline-block;
- border-radius: 20px;
- padding: 1rem;   
+ border-radius: 5px;
+ padding: .5rem;
+ color: var(--White);   
 }

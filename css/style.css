@@ -19,14 +19,23 @@ html {
     --Sunglow: #ffd034; 
     --White: #ffffff;
     --LightBlue: #cadbf8;
+    --montserrat: font;
 }
 
 body {
-    font-family: "Montserrat" "Nunito Sans", "Sans-serif";
-    color: black;
-    background-color: #063270;
+    font-family: var(--font);
+    color: var(--black);
+    background-color: var(--catalina);
+    font-size: 1.125rem;
+    line-height: 1.5;
     margin: 0;
     padding: 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto; 
+padding: 0 auto;   
 }
 
 .h1 {
@@ -41,7 +50,10 @@ text-transform: uppercase;
 }
 
 .h3 {
+    font-size: 1.75rem;
 font-weight: 300;
+line-height: 1.1667;
+
 }
 
 nav ul {
@@ -56,4 +68,15 @@ nav ul {
 
 nav a {
     text-decoration: none;
+    padding: 2rem;
+    text-transformation: uppercase;
+    color: var(--white);
+}
+
+.button {
+ text-decoration: none;
+ background-color: var(--catalina);
+ display: inline-block;
+ border-radius: 20px;
+ padding: 1rem;   
 }

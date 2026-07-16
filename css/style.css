@@ -63,9 +63,11 @@ background-color: var(--LightBlue);
 
 
 h1 {
+color: var(--white);
 font-weight: 300;
 text-transform: uppercase;
 margin: 0;
+padding-top: 1.5rem;
 font-size: 3rem;
 line-height: 1.1667;
 display: inline-block;
@@ -92,7 +94,7 @@ nav {
     padding: .5rem;
     margin: 0 auto;
     display: flex;
-    gap: 1rem;
+
     justify-content: space-between;
     color: var(--White);
 }
@@ -101,7 +103,6 @@ nav ul {
     margin: 0;
     padding: 0;
     display: flex;
-    gap: 1rem;
     flex-flow: row wrap;
     align-items: center;
     color: var(--White);

@@ -41,6 +41,14 @@ margin: 0 auto;
 padding: 0;  
 }
 
+@media (min-width: 650px) {
+    .coffee-grid {
+        grid-columns-template: 1fr 1fr;
+
+    }
+}
+
+
 h1 {
 font-weight: 300;
 text-transform: uppercase;
@@ -72,6 +80,7 @@ nav ul {
     gap: 1rem;
     flex-flow: row wrap;
     justify-content: center;
+    color: var(--White);
 }
 
 nav a {

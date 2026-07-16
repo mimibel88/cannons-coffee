@@ -73,6 +73,11 @@ line-height: 1.1667;
 }
 
 nav {
+    padding: .5rem;
+    margin: 0 auto;
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
     color: var(--White);
 }
 nav ul {

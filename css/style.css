@@ -24,6 +24,13 @@ html {
 header {
     background-color: var(--Catalina);
     color: Var(var(--White));
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    border-bottom: 15px solid var(--Sunglow);
+
+
 }
 body {
     font-family: var(--Montserrat);

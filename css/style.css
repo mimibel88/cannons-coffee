@@ -19,16 +19,16 @@ html {
     --Sunglow: #ffd034; 
     --White: #ffffff;
     --LightBlue: #cadbf8;
-    --montserrat: Montserrat;
+    --Montserrat: Montserrat;
 }
 header {
     background-color: var(--Catalina);
     color: Var(var(--White));
 }
 body {
-    font-family: var(--montserrat);
+    font-family: var(--Montserrat);
     color: var(--Black);
-    background-color: var(--White);
+    background-color: var(--Catalina);
     font-size: 1.125rem;
     line-height: 1.5;
     margin: 0;
@@ -38,7 +38,7 @@ body {
 .container {
 max-width: 1200px;
 margin: 0 auto; 
-padding: 0 auto;  
+padding: 0;  
 }
 
 h1 {
@@ -81,13 +81,22 @@ nav a {
     color: var(--White);
 }
 
-.button {
+.button1 {
  text-decoration: none;
  background-color: var(--Catalina);
  display: inline-block;
  border-radius: 5px;
  padding: .5rem;
  color: var(--White);   
+}
+
+.button2 {
+    text-decoration: none;
+    background-color: var(--Vegan);
+    display: inline-block;
+    border-radius: 5px;
+    padding: .5rem;
+    color: var(--White);
 }
 
 footer {

@@ -45,6 +45,12 @@ body {
     margin: 0;
     padding: 0;
 }
+.coffee-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    padding: 2rem;
+}
 .topcard {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -55,7 +61,9 @@ body {
 .tcgrid {
     display: grid;
 }
-
+.coffeecomp {
+    width: 100%;
+}
 .container {
     display: grid;
 max-width: 1200px;
@@ -120,11 +128,12 @@ nav ul {
 
 nav a {
     text-decoration: none;
-    padding: 2rem;
     text-transform: uppercase;
     color: var(--White);
 }
-
+nav a:hover {
+    color: var(--LightBlue);
+}
 .button1 {
  text-decoration: none;
  background-color: var(--Catalina);

@@ -23,7 +23,7 @@ html {
 }
 header {
     background-color: var(--Catalina);
-    color: Var(var(--White));
+    color: var(--White);
     text-align: left;
     display: flex;
     justify-content: center;
@@ -51,6 +51,12 @@ body {
     gap: 1rem;
     padding: 2rem;
 }
+
+.coffee-card {
+    width: 100%;
+    border-radius: 5px;
+}
+
 .topcard {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -74,14 +80,17 @@ background-color: var(--LightBlue);
 
 @media (min-width: 650px) {
     .coffee-grid {
-        grid-columns-template: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
 
     }
 }
-
+@media (min-width: 1000px) {
+    .coffee-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
 
 h1 {
-color: var(--white);
+color: var(--White);
 font-weight: 300;
 text-transform: uppercase;
 margin: 0;

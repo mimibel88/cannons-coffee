@@ -45,6 +45,16 @@ body {
     margin: 0;
     padding: 0;
 }
+.topcard {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 1rem;
+}
+
+.tcgrid {
+    display: grid;
+}
 
 .container {
     display: grid;

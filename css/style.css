@@ -88,7 +88,7 @@ background-color: var(--LightBlue);
     .coffee-grid {
         grid-template-columns: repeat(4, 1fr);
     }
-
+}
 h1 {
 color: var(--White);
 font-weight: 300;
@@ -121,14 +121,14 @@ nav {
     padding: .5rem;
     margin: 0 auto;
     display: flex;
-
-    justify-content: space-between;
+ justify-content: space-between;
     color: var(--White);
 }
 nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    gap: 1rem;
     display: flex;
     flex-flow: row wrap;
     align-items: center;

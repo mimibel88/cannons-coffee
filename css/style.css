@@ -21,18 +21,24 @@ html {
     --LightBlue: #cadbf8;
     --Montserrat: Montserrat;
 }
+
+
 header {
     background-color: var(--Catalina);
     color: var(--White);
-    text-align: left;
+    text-align: center;
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
     border-bottom: 8px solid var(--Sunglow);
 }
-
+.logo {
+    max-width: 100px;
+    height: auto;
+}
 .logoleft {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     gap: 1rem;
 }
@@ -52,11 +58,14 @@ body {
     padding: 2rem;
 }
 
-.coffee-card {
+.coffee-card img {
     width: 100%;
     border-radius: 5px;
+    display: block;
 }
-
+.coffee-card h3 {
+margin: 1rem 0 .5rem;
+}
 .topcard {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -81,6 +90,7 @@ background-color: var(--LightBlue);
 @media (min-width: 650px) {
     .coffee-grid {
         grid-template-columns: 1fr 1fr;
+        font-size: 1.5 rem;
 
     }
 }
@@ -89,13 +99,14 @@ background-color: var(--LightBlue);
         grid-template-columns: repeat(4, 1fr);
     }
 }
+
 h1 {
 color: var(--White);
 font-weight: 300;
 text-transform: uppercase;
 margin: 0;
 padding-top: 1.5rem;
-font-size: 3rem;
+font-size: 3rem;  
 line-height: 1.1667;
 display: inline-block;
 
@@ -119,8 +130,6 @@ nav {
     display: flex;
     flex-flow: row wrap;
     padding: .5rem;
-    margin: 0 auto;
-    display: flex;
  justify-content: space-between;
     color: var(--White);
 }
@@ -164,4 +173,10 @@ nav a:hover {
 footer {
     background-color: #06327d;
     color: #cadbf8;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+footer .logo {
+    max-width: 100px;
+    margin-bottom: 1rem;
 }

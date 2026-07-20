@@ -59,9 +59,9 @@ body {
 }
 
 .coffee-card img {
-    width: 100%;
-    border-radius: 5px;
+    max-width: 100%;
     display: block;
+    height: auto;
 }
 .coffee-card h3 {
 margin: 1rem 0 .5rem;
@@ -71,6 +71,7 @@ margin: 1rem 0 .5rem;
     grid-template-columns: 1fr 1fr;
     align-items: center;
     gap: 1rem;
+    background-color: var(--White);
 }
 
 .tcgrid {

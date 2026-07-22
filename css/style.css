@@ -44,6 +44,7 @@ header {
 }
 main {
     padding: 2rem;
+    background-color: var(--White);
 }
 body {
     font-family: var(--Montserrat);

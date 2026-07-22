@@ -57,6 +57,7 @@ body {
     gap: 1rem;
     padding: 2rem;
     background-color: var(--LightBlue);
+    border-radius: 5px;
 }
 .coffee-card p {
     font-size: 1rem;
@@ -66,7 +67,7 @@ body {
     max-width: 100%;
     display: block;
     height: auto;
-    order-radius: 8px;
+    border-radius: 8px;
 }
 .coffee-card h3 {
 margin: 1rem 0 .5rem;

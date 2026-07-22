@@ -195,11 +195,23 @@ nav a:hover {
     color: var(--White);
 }
 
+.topcard2 {
+.container {
+        display: grid;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0;
+        background-color: var(--LightBlue);
+    }
+}
+
 footer {
     background-color: #06327d;
     color: #cadbf8;
     text-align: center;
     padding: 2rem 1rem;
+    border-top: 8px solid var(--Sunglow);
+    
 }
 footer .logo {
     max-width: 100px;

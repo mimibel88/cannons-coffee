@@ -45,6 +45,8 @@ h1 {
     font-weight: 300;
     text-transform: uppercase;
     margin: 0;
+    color: var(--White);
+        display: inline;
 }
 
 h2 {
@@ -92,17 +94,13 @@ nav ul {
 
 header {
     text-align: center;
-    border-bottom: 10px solid var(--Sunglow);
+    border-bottom: 5px solid var(--Sunglow);
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
     align-items: baseline;
 }
 
-h1 {
-    color: var(--White);
-    display: inline;
-}
 
 .grid1 {
     display: grid;

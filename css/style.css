@@ -282,20 +282,20 @@ p {
 
 /* Tablet: 650px and up */
 @media (min-width: 650px) {
-    .hero {
+    .coffee{
         flex-direction: row;
     }
 
-    .hero__media,
-    .hero__content {
+    .coffee__media,
+    .coffee__content {
         flex: 1;
     }
 
-    .hero__media img {
+    .coffee__media img {
         height: 100%;
     }
 
-    .hero__content {
+    .coffee__content {
         justify-content: center;
         padding: 2.5rem;
     }
@@ -313,7 +313,7 @@ p {
         justify-content: space-between;
     }
 
-    .hero__content h1,
+    .coffee__content h1,
     .product__content h1 {
         font-size: 3rem;
         /* full brand-guide size at desktop */

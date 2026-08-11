@@ -118,7 +118,7 @@ p {
 
 .btn--green {
     background-color: var(--color-vegan);
-    display: inline-block;
+    
 }
 
 .btn--blue {
@@ -218,6 +218,7 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: flex-start;
     gap: 1rem;
     padding: 1.5rem;
 }

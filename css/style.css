@@ -66,7 +66,7 @@ body {
     /* body */
     line-height: 1.5;
     color: var(--color-black);
-    background-color: var(--color-white);
+    background-color: var(--color-catalina);
 }
 
 h1 {
@@ -101,7 +101,6 @@ p {
     width: 100%;
     max-width: 1200px;
     margin-inline: auto;
-    padding: 2rem;
 }
 
 
@@ -119,6 +118,7 @@ p {
 
 .btn--green {
     background-color: var(--color-vegan);
+    display: inline-block;
 }
 
 .btn--blue {
@@ -171,7 +171,8 @@ p {
 .coffee {
     display: flex;
     flex-direction: column;
-    border-bottom: 4px solid var(--color-sunglow);
+    
+    background-color: var(--color-white);
 }
 
 .coffee__media img {
@@ -198,6 +199,7 @@ p {
     display: flex;
     flex-direction: row;
     border-bottom: 4px solid var(--color-sunglow);
+    background-color: var(--color-white);
 }
 
 .product__media {
@@ -229,6 +231,7 @@ p {
 .our-coffee {
     background-color: var(--color-light-blue);
     padding-block: 3rem;
+    border-bottom: 4px solid var(--color-sunglow);
 }
 
 .our-coffee h2 {
@@ -308,11 +311,6 @@ p {
 
 /* Desktop: 1000px and up */
 @media (min-width: 1000px) {
-    .site-header__inner {
-        flex-direction: row;
-        justify-content: space-between;
-    }
-
     .coffee__content h1,
     .product__content h1 {
         font-size: 3rem;

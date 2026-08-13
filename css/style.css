@@ -243,3 +243,6 @@ footer {
     padding: 2rem 0;
     border-top: 8px solid #FFD034;
 }
+.hidden {
+    display: none;
+}

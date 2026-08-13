@@ -92,7 +92,7 @@ nav ul {
 
 header {
     text-align: center;
-    border-bottom: 10px solid #FFD034;
+    border-bottom: 8px solid #FFD034;
 
     display: flex;
     justify-content: center;
@@ -122,6 +122,18 @@ img {
 
 .cards img {
     border-radius: 10px;
+}
+
+.lattegrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: var(--white);
+    max-width: 100%;
+    gap: 1rem;
+    /* padding: 0%; */
+    align-items: center;
+    justify-content: center;
+
 }
 
 .grid2 {
@@ -155,13 +167,7 @@ img {
     text-transform: uppercase;
 }
 
-footer {
-    background-color: var(--catalina);
-    color: #FFFFFF;
-    text-align: center;
-    padding: 2rem 0;
-    border-top: 15px solid #FFD034;
-}
+
 
 .logo {
     align-items: center;
@@ -179,17 +185,7 @@ footer {
     color: var(--white)
 }
 
-.lattegrid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    background-color: var(--white);
-    max-width: 100%;
-    gap: 1rem;
-    /* padding: 0%; */
-    align-items: center;
-    justify-content: center;
 
-}
 
 @media (min-width: 650px) {
     header {
@@ -238,4 +234,12 @@ footer {
     .logo img {
         display: block;
     }
+}
+
+footer {
+    background-color: var(--catalina);
+    color: #FFFFFF;
+    text-align: center;
+    padding: 2rem 0;
+    border-top: 8px solid #FFD034;
 }

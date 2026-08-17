@@ -82,12 +82,12 @@ nav a {
 
 nav ul {
     list-style-type: none;
-    padding: 1rem;
+    padding-bottom: 1rem;
     margin: 0;
     display: flex;
     flex-flow: row wrap;
     gap: 1rem;
-    margin-top: 1.5rem;
+    justify-content: center;
 }
 
 header {
@@ -104,7 +104,7 @@ header {
 h1 {
     color: var(--white);
     display: inline;
-
+    margin: 0;
 }
 
 .grid1 {
@@ -188,19 +188,14 @@ img {
 
 
 @media (min-width: 650px) {
-    header {
-        justify-content: center;
 
-    }
 
     .cards {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
     }
 
-    nav ul {
-        justify-content: space-between;
-    }
+
 
     .card1 {
         grid-column: 1/2;
@@ -243,6 +238,7 @@ footer {
     padding: 2rem 0;
     border-top: 8px solid #FFD034;
 }
+
 .hidden {
     display: none;
 }

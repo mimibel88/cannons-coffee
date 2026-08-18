@@ -10,7 +10,7 @@ function onFormSubmit(event) {
 
     const interest = dataObject.buyOrWork === "buy" ? "buying coffee" : "seeking employment"
 
-    const message = `Thank you ${dataObject.yourname}! We appreciate your interest in ${interest}. Your favorite coffee flavor is ${dataObject.flavor} and your comments are ${dataObject.comments}. We will soon contact you at ${dataObject.email} or ${dataObject["phone-number"]}.`
+    const message = `Thank you ${dataObject.yourname}! We appreciate your interest in ${interest}. Your favorite coffee flavor is ${dataObject.flavor} and your comments are ${dataObject.comments}. We will soon contact you at ${dataObject.email} or ${dataObject["phoneNumber"]}.`
 
     const thankYouMessage = document.querySelector("#thank-you")
     thankYouMessage.textContent = message
